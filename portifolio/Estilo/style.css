@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* Importe as fontes Montserrat com peso 600 (negrito) e 300 (fino) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.options {
+    text-align: right;
+    margin-right: 100px;
+    display: flex;
+}
+
+/* Estilos para o botão de menu */
+.menu-button {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Estilos para a lista de itens de menu em telas maiores */
+.options ul {
+    list-style: none;
+    display: flex;
+}
+
+.options li {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.options button{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.options button:hover {
+    background-color: #7fffd4; 
+}
+
+.options button:hover {
+    background-color: #7fffd4; 
+}
+
+/* Estilos do Menu para o menu em telas menores */
+@media screen and (max-width: 768px) {
+    .options {
+        flex-direction: column;
+        top: 60px;
+        background-color: aliceblue;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        right: 0; 
+    }
+
+    .menu-button {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .options ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px; 
+    }
+
+    .options li {
+        margin-bottom: 10px; 
+    }
+
+    .options.active {
+        opacity: 1;
+    }
+}
+
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    max-width: 100%;
+    min-width: 100%;
+    width: 40px;
+}
+
+/* Estilos para telas menores (telefone) */
+@media screen and (max-width: 768px) {
+    .options {
+        margin-right: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+}
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.title h2{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.iconImage{
+    margin-top: 100px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.iconImage img{
+    max-width: 100%;
+    width: 500px;
+}
+
+.aboutMe{
+    background-color:#6E07F3 ;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+.titlleAbout{
+    padding: 10px;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-align: center;
+    PA-top: 250px;
+}
+
+.textAbout {
+    padding: 10px 5% 0 5%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+    text-indent: 2%;
+}
+
+/* Consulta de mídia para ajustar o estilo em telas menores */
+@media screen and (max-width: 768px) {
+    .textAbout {
+        padding: 10px 4% 0 4%;
+        text-indent: 0;
+    }
+}
+
+.textAbout p{
+    margin-top: 10px;
+}
+
+.titlleEspec {
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.specialization{
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.card{
+    max-width: 100%s;
+    box-shadow: 0 0 5px hsl(178, 100%, 60%);
+    border-radius: 5px;        
+    padding: 2rem;
+    text-align: center;
+    width: 32%;
+    margin: 0.5px;
+}
+
+.card img {
+    max-width: 100%;
+    width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%; /* Defina a largura para 100% para que os cartões se empilhem verticalmente */
+        margin-bottom: 10px;
+    }
+}
+
+.titleSpecSheet {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.listAtributes{
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; 
+    list-style-type: none;
+}
+
+.listAtributes li {
+    margin-top: 10px;
+}
+
+.titleRecentWorcks {
+    text-align: center;
+}
+
+.titleRecentWorcks h1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+}
+
+.titleRecentWorcks span {
+    margin-top: 50rem;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+.textRecentWorck {
+    margin-top: 20px;
+}
+
+body > section.meWorks > div.titleRecentWorcks > div > span > a{
+    text-decoration: none;
+}
+
+.containerWorks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center; /* Alinha os containers no centro horizontal */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 250px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 5px hsl(0, 0%, 7%);
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+
+.image-container img {
+    width: 100%; /* Para garantir que a imagem ocupe 100% da largura do container */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.overlay p {
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.overlay a {
+    max-width: 100%;
+    width: 200px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6E07F3;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+        margin: 0 0 10px 0; /* Adiciona margem inferior, remove as margens laterais */
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+}
+
+.myExperience {
+    border-top: 1px solid #E6ECF8;
+}
+
+.tittleEperience {
+    width: 100%;
+    text-align: center;
+}
+
+.tittleEperience h1{
+    padding: 10px;
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+
+.textExperience{
+    padding: 10px 5% 0 5%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-indent: 2%;
+    padding: 10px 5% 0 5%;
+}
+
+.textExperience2 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-indent: 2%;
+}
+
+.textExperience2 button {
+    font-size: 15px;
+    margin-top: 120px;
+    max-width: 100%;
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.textExperience2 button:hover {
+    background-color: #7fffd4; 
+}
+
+
+/* Rodapé para Telas maiores */
+.rodape {
+    margin-top: 250px;
+    background-color:#6E07F3 ;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.logoFooter{
+    justify-content: space-between;
+    margin-top: 50px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.logoFooter img{
+    width: 100px;
+}
+
+.redesSociaisText{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.redesSociaisText h1{
+    padding: 50px;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.redesSociaisImg{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.redesSociaisImg img{
+    width: 50px;
+}
+
+.copyR {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #333; /* Cor de fundo, você pode ajustar conforme desejado */
+    color: #fff; /* Cor do texto, você pode ajustar conforme desejado */
+    padding: 10px;
+}
+
+.copyR p {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Rodapé para Telas menores */
+@media screen and (max-width: 768px) {
+    .copyR p {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .rodape {
+        margin-top: 125px;
+        background-color:#6E07F3 ;
+        width: 100%;
+        padding-top: 25px;
+    }
+    
+    .logoFooter{
+        justify-content: space-between;
+        margin-top: 25px;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .logoFooter img{
+        width: 80px;
+    }
+    
+    .redesSociaisText{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .redesSociaisText h1{
+        padding: 30px;
+        font-size: 20px;
+        font-family: 'Montserrat';
+        color: #fff;
+    }
+    
+    .redesSociaisImg{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .redesSociaisImg img{
+        width: 30px;
+    }
+    
+    .copyR {
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        background-color: #333; /* Cor de fundo, você pode ajustar conforme desejado */
+        color: #fff; /* Cor do texto, você pode ajustar conforme desejado */
+        padding: 10px;
+    }
+}
