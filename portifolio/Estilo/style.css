@@ -21,7 +21,7 @@ header {
 }
 
 .options {
-    text-align: right;
+    text-align: center;
     margin-right: 100px;
     display: flex;
 }
@@ -59,10 +59,12 @@ header {
 
 .options button:hover {
     background-color: #7fffd4; 
+    width: 100%;
 }
 
 .options button:hover {
     background-color: #7fffd4; 
+    width: 100%;
 }
 
 /* Estilos do Menu para o menu em telas menores */
@@ -103,7 +105,6 @@ header {
         opacity: 1;
     }
 }
-
 
 .logo {
     margin-left: 100px;
@@ -156,7 +157,7 @@ header {
     background-color:#6E07F3 ;
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
 }
 
 .titlleAbout{
@@ -278,10 +279,10 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-    justify-content: center; /* Alinha os containers no centro horizontal */
+    justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 .container {
@@ -409,7 +410,6 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     background-color: #7fffd4; 
 }
 
-
 /* Rodapé para Telas maiores */
 .rodape {
     margin-top: 250px;
@@ -469,7 +469,6 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* Rodapé para Telas menores */
 @media screen and (max-width: 768px) {
     .copyR p {
@@ -516,7 +515,7 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     }
     
     .redesSociaisImg img{
-        width: 30px;
+        width: 60px;
     }
     
     .copyR {
