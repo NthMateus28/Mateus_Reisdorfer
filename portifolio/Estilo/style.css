@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
 /* Importe as fontes Montserrat com peso 600 (negrito) e 300 (fino) */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,11 +46,11 @@ header {
     list-style-type: none;
 }
 
-.options button{
+.options button {
     background-color: aliceblue;
     padding: 20px;
     border-radius: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     border: 0;
     cursor: pointer;
@@ -58,12 +58,12 @@ header {
 }
 
 .options button:hover {
-    background-color: #7fffd4; 
+    background-color: #7fffd4;
     width: 100%;
 }
 
 .options button:hover {
-    background-color: #7fffd4; 
+    background-color: #7fffd4;
     width: 100%;
 }
 
@@ -78,7 +78,7 @@ header {
         overflow: hidden;
         position: absolute;
         width: 100%;
-        right: 0; 
+        right: 0;
     }
 
     .menu-button {
@@ -94,11 +94,11 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 20px; 
+        padding-top: 20px;
     }
 
     .options li {
-        margin-bottom: 10px; 
+        margin-bottom: 10px;
     }
 
     .options.active {
@@ -127,51 +127,51 @@ header {
     }
 }
 
-.title{
+.title {
     text-align: center;
     margin-top: 30px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .title h1 {
     font-size: 40px;
 }
 
-.title h2{
+.title h2 {
     margin-top: 25px;
     font-size: 20px;
 }
 
-.iconImage{
+.iconImage {
     margin-top: 100px;
     max-width: 100%;
     text-align: center;
 }
 
-.iconImage img{
+.iconImage img {
     max-width: 100%;
     width: 500px;
 }
 
-.aboutMe{
-    background-color:#6E07F3 ;
+.aboutMe {
+    background-color: #6e07f3;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 150px;
 }
 
-.titlleAbout{
+.titlleAbout {
     padding: 10px;
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     text-align: center;
-    PA-top: 250px;
+    pa-top: 250px;
 }
 
 .textAbout {
     padding: 10px 5% 0 5%;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: white;
     font-weight: 300;
     line-height: 1.5;
@@ -186,7 +186,7 @@ header {
     }
 }
 
-.textAbout p{
+.textAbout p {
     margin-top: 10px;
 }
 
@@ -194,13 +194,13 @@ header {
     font-size: 20px;
     padding: 10px;
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     text-align: center;
     margin-top: 100px;
     text-decoration: underline;
 }
 
-.specialization{
+.specialization {
     max-width: 100%;
     text-align: center;
     display: flex;
@@ -209,10 +209,10 @@ header {
     margin: 10px;
 }
 
-.card{
+.card {
     max-width: 100%s;
     box-shadow: 0 0 5px hsl(178, 100%, 60%);
-    border-radius: 5px;        
+    border-radius: 5px;
     padding: 2rem;
     text-align: center;
     width: 32%;
@@ -233,16 +233,16 @@ header {
 
 .titleSpecSheet {
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     font-weight: 600;
 }
 
-.listAtributes{
+.listAtributes {
     font-size: 15px;
     margin-top: 50px;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff; 
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
     list-style-type: none;
 }
 
@@ -254,24 +254,24 @@ header {
     text-align: center;
 }
 
-.titleRecentWorcks h1{
+.titleRecentWorcks h1 {
     margin-top: 50px;
     font-size: 30px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     text-decoration: underline;
 }
 
 .titleRecentWorcks span {
     margin-top: 50rem;
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .textRecentWorck {
     margin-top: 20px;
 }
 
-body > section.meWorks > div.titleRecentWorcks > div > span > a{
+body > section.meWorks > div.titleRecentWorcks > div > span > a {
     text-decoration: none;
 }
 
@@ -286,7 +286,7 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .image-container {
@@ -294,11 +294,14 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     display: inline-block;
     box-shadow: 0 0 5px hsl(0, 0%, 7%);
     border-radius: 10px;
-    margin: 0 10px 10px 0;
+    margin: 20px 10px 10px 0;
+    max-width: 600px;
 }
 
 .image-container img {
+    /* margin-top: 30px; */
     width: 100%; /* Para garantir que a imagem ocupe 100% da largura do container */
+    border-radius: 10px;
 }
 
 .overlay {
@@ -319,7 +322,7 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
 
 .overlay p {
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .overlay a {
@@ -327,11 +330,11 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     width: 200px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #6E07F3;
+    background-color: #6e07f3;
     color: #fff;
     text-decoration: none;
     margin-top: 50px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     border-radius: 10px;
 }
 
@@ -356,7 +359,7 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
 }
 
 .myExperience {
-    border-top: 1px solid #E6ECF8;
+    border-top: 1px solid #e6ecf8;
 }
 
 .tittleEperience {
@@ -364,17 +367,17 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     text-align: center;
 }
 
-.tittleEperience h1{
+.tittleEperience h1 {
     padding: 10px;
     margin-top: 150px;
     font-size: 25px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
-.textExperience{
+.textExperience {
     padding: 10px 5% 0 5%;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     text-indent: 2%;
@@ -385,7 +388,7 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     margin-top: 50px;
     font-size: 30px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     text-indent: 2%;
@@ -399,7 +402,7 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
     background-color: aliceblue;
     padding: 20px;
     border-radius: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     border: 0;
     cursor: pointer;
@@ -407,49 +410,49 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
 }
 
 .textExperience2 button:hover {
-    background-color: #7fffd4; 
+    background-color: #7fffd4;
 }
 
 /* Rodapé para Telas maiores */
 .rodape {
     margin-top: 250px;
-    background-color:#6E07F3 ;
+    background-color: #6e07f3;
     width: 100%;
     padding-top: 50px;
 }
 
-.logoFooter{
+.logoFooter {
     justify-content: space-between;
     margin-top: 50px;
     max-width: 100%;
     text-align: center;
 }
 
-.logoFooter img{
+.logoFooter img {
     width: 100px;
 }
 
-.redesSociaisText{
+.redesSociaisText {
     margin-top: 50px;
     width: 100%;
     text-align: center;
 }
 
-.redesSociaisText h1{
+.redesSociaisText h1 {
     padding: 50px;
     font-size: 25px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: #fff;
 }
 
-.redesSociaisImg{
+.redesSociaisImg {
     margin-top: 50px;
     margin-bottom: 50px;
     max-width: 100%;
     text-align: center;
 }
 
-.redesSociaisImg img{
+.redesSociaisImg img {
     width: 50px;
 }
 
@@ -466,58 +469,58 @@ body > section.meWorks > div.titleRecentWorcks > div > span > a{
 
 .copyR p {
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Rodapé para Telas menores */
 @media screen and (max-width: 768px) {
     .copyR p {
         font-size: 10px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
     }
 
     .rodape {
         margin-top: 125px;
-        background-color:#6E07F3 ;
+        background-color: #6e07f3;
         width: 100%;
         padding-top: 25px;
     }
-    
-    .logoFooter{
+
+    .logoFooter {
         justify-content: space-between;
         margin-top: 25px;
         max-width: 100%;
         text-align: center;
     }
-    
-    .logoFooter img{
+
+    .logoFooter img {
         width: 80px;
     }
-    
-    .redesSociaisText{
+
+    .redesSociaisText {
         margin-top: 30px;
         width: 100%;
         text-align: center;
     }
-    
-    .redesSociaisText h1{
+
+    .redesSociaisText h1 {
         padding: 30px;
         font-size: 20px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         color: #fff;
     }
-    
-    .redesSociaisImg{
+
+    .redesSociaisImg {
         margin-top: 50px;
         margin-bottom: 50px;
         max-width: 100%;
         text-align: center;
     }
-    
-    .redesSociaisImg img{
+
+    .redesSociaisImg img {
         width: 60px;
     }
-    
+
     .copyR {
         margin: 0;
         padding: 0;
